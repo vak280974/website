@@ -50,13 +50,13 @@ ajv@^5.1.5:
     fast-json-stable-stringify "^2.0.0"
     json-schema-traverse "^0.3.0"
 
-algolia-sitemap@^2.0.6:
-  version "2.0.7"
-  resolved "https://registry.yarnpkg.com/algolia-sitemap/-/algolia-sitemap-2.0.7.tgz#4427a86006a533a201b65eac04e823c98301879b"
+algolia-sitemap@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/algolia-sitemap/-/algolia-sitemap-2.1.0.tgz#e4f9efc3e6e51fdab005ebbc122492f53b542016"
   dependencies:
-    algoliasearch "^3.22.2"
+    algoliasearch "^3.26.0"
     jsx-string "^2.0.0"
-    validator "^9.0.0"
+    validator "^9.4.1"
 
 algoliasearch-helper@^2.21.0:
   version "2.23.0"
@@ -87,9 +87,29 @@ algoliasearch@^3.22.1:
     semver "^5.1.0"
     tunnel-agent "^0.6.0"
 
-algoliasearch@^3.22.2, algoliasearch@^3.24.0, algoliasearch@^3.24.3:
+algoliasearch@^3.24.0, algoliasearch@^3.24.3:
   version "3.24.5"
   resolved "https://registry.yarnpkg.com/algoliasearch/-/algoliasearch-3.24.5.tgz#15d1e6c6a059b8b357d7d40122d9841829acfd20"
+  dependencies:
+    agentkeepalive "^2.2.0"
+    debug "^2.6.8"
+    envify "^4.0.0"
+    es6-promise "^4.1.0"
+    events "^1.1.0"
+    foreach "^2.0.5"
+    global "^4.3.2"
+    inherits "^2.0.1"
+    isarray "^2.0.1"
+    load-script "^1.0.0"
+    object-keys "^1.0.11"
+    querystring-es3 "^0.2.1"
+    reduce "^1.0.1"
+    semver "^5.1.0"
+    tunnel-agent "^0.6.0"
+
+algoliasearch@^3.26.0:
+  version "3.27.0"
+  resolved "https://registry.yarnpkg.com/algoliasearch/-/algoliasearch-3.27.0.tgz#675b7f2d186e5785a1553369b15d47b53d4efb31"
   dependencies:
     agentkeepalive "^2.2.0"
     debug "^2.6.8"
@@ -3519,9 +3539,9 @@ validate-npm-package-license@^3.0.1:
     spdx-correct "~1.0.0"
     spdx-expression-parse "~1.0.0"
 
-validator@^9.0.0:
-  version "9.1.1"
-  resolved "https://registry.yarnpkg.com/validator/-/validator-9.1.1.tgz#3bdd1065cbd28f9d96ac806dee01030d32fd97ef"
+validator@^9.4.1:
+  version "9.4.1"
+  resolved "https://registry.yarnpkg.com/validator/-/validator-9.4.1.tgz#abf466d398b561cd243050112c6ff1de6cc12663"
 
 verror@1.10.0:
   version "1.10.0"
