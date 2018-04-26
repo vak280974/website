@@ -2,7 +2,7 @@
   "name": "yarn-website",
   "version": "1.0.0",
   "devDependencies": {
-    "algolia-sitemap": "^2.0.6",
+    "algolia-sitemap": "^2.1.1",
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.1",
     "babel-plugin-transform-react-constant-elements": "^6.23.0",
