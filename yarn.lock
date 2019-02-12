@@ -1857,9 +1857,9 @@ graceful-fs@^4.1.2, graceful-fs@^4.1.6, graceful-fs@^4.1.9:
   version "4.1.11"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.1.11.tgz#0e8bdfe4d1ddb8854d64e04ea7c00e2a026e5658"
 
-happypack@^4.0.0-beta.2:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/happypack/-/happypack-4.0.0.tgz#de1770d472dab33e3f31782a3edb4e77cc658631"
+happypack@^5.0.1:
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/happypack/-/happypack-5.0.1.tgz#850839426d6205a520bf913e962349fbe523a07c"
   dependencies:
     async "1.5.0"
     json-stringify-safe "5.0.1"

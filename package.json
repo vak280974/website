@@ -10,7 +10,7 @@
     "babel-preset-env": "1.6.0",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
-    "happypack": "^4.0.0-beta.2",
+    "happypack": "^5.0.1",
     "lint-staged": "^4.0.3",
     "pre-commit": "^1.2.2",
     "prettier": "^1.5.3",
