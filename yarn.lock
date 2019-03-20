@@ -3637,9 +3637,9 @@ wrappy@1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/wrappy/-/wrappy-1.0.2.tgz#b5243d8f3ec1aa35f1364605bc0d1036e30ab69f"
 
-xss@^0.3.3:
-  version "0.3.4"
-  resolved "https://registry.yarnpkg.com/xss/-/xss-0.3.4.tgz#f4eca4e83e10a91a578ef8caa10fb416c38ce15b"
+xss@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/xss/-/xss-1.0.5.tgz#a9691916613b37c6df6d3d91b04d1ea0893cddb4"
   dependencies:
     commander "^2.9.0"
     cssfilter "0.0.10"
