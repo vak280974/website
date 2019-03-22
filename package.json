@@ -47,7 +47,7 @@
     "marked": "^0.3.6",
     "prop-types": "^15.5.10",
     "qs": "^6.5.0",
-    "react": "^16.0.0",
+    "react": "^16.8.5",
     "react-dom": "^16.0.0",
     "react-instantsearch": "^4.0.10",
     "react-transition-group": "1.2.0",
