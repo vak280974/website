@@ -41,7 +41,7 @@
     "algoliasearch": "^3.24.3",
     "bootstrap": "4.0.0-alpha.5",
     "bytes": "^2.5.0",
-    "date-fns": "^2.0.0-alpha.1",
+    "date-fns": "^2.5.1",
     "docsearch.js": "^2.4.1",
     "jquery": "^3.2.1",
     "marked": "^0.3.6",
