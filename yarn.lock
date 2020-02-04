@@ -2,6 +2,96 @@
 # yarn lockfile v1
 
 
+"@algolia/cache-browser-local-storage@4.0.1":
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/@algolia/cache-browser-local-storage/-/cache-browser-local-storage-4.0.1.tgz#912588b31d61a53f57663718b757a10a579dcaa1"
+  dependencies:
+    "@algolia/cache-common" "4.0.1"
+
+"@algolia/cache-common@4.0.1":
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/@algolia/cache-common/-/cache-common-4.0.1.tgz#016c19690c7a4d1074e7e3f47fd8ea503eb6118b"
+
+"@algolia/cache-in-memory@4.0.1":
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/@algolia/cache-in-memory/-/cache-in-memory-4.0.1.tgz#7212ded1d08e3df9003092867240e436deb59079"
+  dependencies:
+    "@algolia/cache-common" "4.0.1"
+
+"@algolia/client-account@4.0.1":
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/@algolia/client-account/-/client-account-4.0.1.tgz#14be61f0ea48e11b8dcbdaefb5ed4b20369df671"
+  dependencies:
+    "@algolia/client-common" "4.0.1"
+    "@algolia/client-search" "4.0.1"
+    "@algolia/transporter" "4.0.1"
+
+"@algolia/client-analytics@4.0.1":
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/@algolia/client-analytics/-/client-analytics-4.0.1.tgz#acd65359f3d397ce819f588a3e6da9615e8404a6"
+  dependencies:
+    "@algolia/client-common" "4.0.1"
+    "@algolia/client-search" "4.0.1"
+    "@algolia/requester-common" "4.0.1"
+    "@algolia/transporter" "4.0.1"
+
+"@algolia/client-common@4.0.1":
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/@algolia/client-common/-/client-common-4.0.1.tgz#db26932153162ca61eea3f765553a275511a1adb"
+  dependencies:
+    "@algolia/requester-common" "4.0.1"
+    "@algolia/transporter" "4.0.1"
+
+"@algolia/client-recommendation@4.0.1":
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/@algolia/client-recommendation/-/client-recommendation-4.0.1.tgz#bb06340cfe32b6655e174c44fc9fc56c9f900fa8"
+  dependencies:
+    "@algolia/client-common" "4.0.1"
+    "@algolia/requester-common" "4.0.1"
+    "@algolia/transporter" "4.0.1"
+
+"@algolia/client-search@4.0.1":
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/@algolia/client-search/-/client-search-4.0.1.tgz#e901cb00ee8db4dbd357ee96f7d48dbb0566620a"
+  dependencies:
+    "@algolia/client-common" "4.0.1"
+    "@algolia/requester-common" "4.0.1"
+    "@algolia/transporter" "4.0.1"
+
+"@algolia/logger-common@4.0.1":
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/@algolia/logger-common/-/logger-common-4.0.1.tgz#177debee9a30d14f9286c0eb991e81ba61d2479e"
+
+"@algolia/logger-console@4.0.1":
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/@algolia/logger-console/-/logger-console-4.0.1.tgz#15bc3ab6cf04aa6e88206fa9c0247dccfd987080"
+  dependencies:
+    "@algolia/logger-common" "4.0.1"
+
+"@algolia/requester-browser-xhr@4.0.1":
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/@algolia/requester-browser-xhr/-/requester-browser-xhr-4.0.1.tgz#e407b476dcd23534322c582e0030fdd6a39c4a27"
+  dependencies:
+    "@algolia/requester-common" "4.0.1"
+
+"@algolia/requester-common@4.0.1":
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/@algolia/requester-common/-/requester-common-4.0.1.tgz#fb142fd13f579201086016823bf8779964f32e39"
+
+"@algolia/requester-node-http@4.0.1":
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/@algolia/requester-node-http/-/requester-node-http-4.0.1.tgz#736898c2bd59a7b01b728319c78aa716aa089425"
+  dependencies:
+    "@algolia/requester-common" "4.0.1"
+
+"@algolia/transporter@4.0.1":
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/@algolia/transporter/-/transporter-4.0.1.tgz#6ced3c68b8d44d91c3e6d57867fe7855a6b8b6b9"
+  dependencies:
+    "@algolia/cache-common" "4.0.1"
+    "@algolia/logger-common" "4.0.1"
+    "@algolia/requester-common" "4.0.1"
+
 "@haroenv/react-sparklines@^1.7.1":
   version "1.7.1"
   resolved "https://registry.yarnpkg.com/@haroenv/react-sparklines/-/react-sparklines-1.7.1.tgz#a192dd664b391b0c6c7433a4bbb886f39c6b2618"
@@ -67,27 +157,7 @@ algoliasearch-helper@^2.21.0:
     qs "^6.2.1"
     util "^0.10.3"
 
-algoliasearch@^3.22.1:
-  version "3.24.0"
-  resolved "https://registry.yarnpkg.com/algoliasearch/-/algoliasearch-3.24.0.tgz#d0a6ac2963b781d2fb059a3a853fe18765673346"
-  dependencies:
-    agentkeepalive "^2.2.0"
-    debug "^2.6.8"
-    envify "^4.0.0"
-    es6-promise "^4.1.0"
-    events "^1.1.0"
-    foreach "^2.0.5"
-    global "^4.3.2"
-    inherits "^2.0.1"
-    isarray "^2.0.1"
-    load-script "^1.0.0"
-    object-keys "^1.0.11"
-    querystring-es3 "^0.2.1"
-    reduce "^1.0.1"
-    semver "^5.1.0"
-    tunnel-agent "^0.6.0"
-
-algoliasearch@^3.22.2, algoliasearch@^3.24.0, algoliasearch@^3.24.3:
+algoliasearch@^3.22.1, algoliasearch@^3.22.2, algoliasearch@^3.24.0:
   version "3.24.5"
   resolved "https://registry.yarnpkg.com/algoliasearch/-/algoliasearch-3.24.5.tgz#15d1e6c6a059b8b357d7d40122d9841829acfd20"
   dependencies:
@@ -106,6 +176,25 @@ algoliasearch@^3.22.2, algoliasearch@^3.24.0, algoliasearch@^3.24.3:
     reduce "^1.0.1"
     semver "^5.1.0"
     tunnel-agent "^0.6.0"
+
+algoliasearch@^4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/algoliasearch/-/algoliasearch-4.0.1.tgz#956d641b6ef048f551e24739fed6aad275ab68da"
+  dependencies:
+    "@algolia/cache-browser-local-storage" "4.0.1"
+    "@algolia/cache-common" "4.0.1"
+    "@algolia/cache-in-memory" "4.0.1"
+    "@algolia/client-account" "4.0.1"
+    "@algolia/client-analytics" "4.0.1"
+    "@algolia/client-common" "4.0.1"
+    "@algolia/client-recommendation" "4.0.1"
+    "@algolia/client-search" "4.0.1"
+    "@algolia/logger-common" "4.0.1"
+    "@algolia/logger-console" "4.0.1"
+    "@algolia/requester-browser-xhr" "4.0.1"
+    "@algolia/requester-common" "4.0.1"
+    "@algolia/requester-node-http" "4.0.1"
+    "@algolia/transporter" "4.0.1"
 
 align-text@^0.1.1, align-text@^0.1.3:
   version "0.1.4"
