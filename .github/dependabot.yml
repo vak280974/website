@@ -1,0 +1,48 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "07:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: webpack
+    versions:
+    - 4.41.0
+    - 5.28.0
+    - 5.34.0
+  - dependency-name: date-fns
+    versions:
+    - 2.16.1
+    - 2.17.0
+    - 2.18.0
+    - 2.19.0
+    - 2.20.0
+    - 2.20.1
+    - 2.20.2
+    - 2.20.3
+    - 2.21.0
+  - dependency-name: algoliasearch
+    versions:
+    - 4.8.4
+    - 4.8.5
+    - 4.8.6
+    - 4.9.0
+  - dependency-name: qs
+    versions:
+    - 6.10.0
+    - 6.9.6
+  - dependency-name: react-instantsearch
+    versions:
+    - 6.10.0
+    - 6.10.1
+    - 6.10.2
+    - 6.8.3
+    - 6.9.0
+  - dependency-name: lint-staged
+    versions:
+    - 10.5.3
+  - dependency-name: elliptic
+    versions:
+    - 6.5.3
